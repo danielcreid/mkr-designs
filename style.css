@@ -73,7 +73,11 @@ p {
   display: inline-block;
 }
 
-.inline-block__grid-item {
+.inline-block-grid {
+  text-align: center;
+}
+
+.inline-block-grid__item {
   display: inline-block;
   padding: 10px;
   vertical-align: top;
@@ -212,13 +216,8 @@ p {
 }
 
 .project__content {
-  margin-bottom: 20px;
-}
-
-.project__content:after {
-  content: '';
-  display: table;
-  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -263,54 +262,19 @@ p {
   vertical-align: top;
 }
 
-
-/*****Orange Cupboard*****/
-
-.orange-cupboard {
-  padding: 20px;
-  text-align: center;
-}
-
-/*@media screen and (min-width: 768px) {
-}*/
-
-/*****Minimalistic Movie Posters*****/
-
-.kohls-mms {
-  text-align: center;
-}
-
-.kohls-mms__item {
-  display: inline-block;
+.kohls-email .inline-block-grid__item,
+.kohls-mms .inline-block-grid__item,
+.movie-posters .inline-block-grid__item,
+.fosters-home .inline-block-grid__item {
   padding: 20px;
 }
-
-.kohls-mms__item img {
-  vertical-align: top;
-}
-
 
 /*****Fosters Home*****/
-.fosters-home {
-  text-align: center;
-}
-
-.fosters-home__item {
-  display: inline-block;
-  padding: 20px;
-}
-
-.fosters-home__item img {
-  vertical-align: top;
-}
 
 .fosters-home__codepen-embed {
   margin: 0 auto;
-  max-width: 1000px;
-}
-
-.fosters-home__codepen-embed > div {
   padding: 20px;
+  max-width: 1000px;
 }
 
 /*****About*****/
