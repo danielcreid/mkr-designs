@@ -161,9 +161,10 @@ p {
 }
 
 
-/*****Portfolio*****/
+/*****Project Tiles*****/
 
 .project-tile {
+  display: block;
   text-align: left;
   text-decoration: none;
   color: inherit;
@@ -184,29 +185,19 @@ p {
 }
 
 
-.portfolio {
-  height: 325px;
-  width: 250px;
-  margin: 0 auto;
-  display: inline-block;
-  padding: 30px 10px 0px 10px;
+/*****Project Page*****/
+
+.project__header {
+
 }
 
-.titles {
-  width: 250px;
-  text-align: left;
-  top: 265px;
-  line-height: 10px;
+.project__header-title {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
-.poster {
-  text-align: center;
-}
-
-.poster img {
-  margin: 0 auto;
-  display: inline-block;
-  padding: 20px;
+.project__header-subtitle {
+  margin-top: 10px;
 }
 
 
