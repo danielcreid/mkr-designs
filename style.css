@@ -201,17 +201,29 @@ p {
 }
 
 
-/*****Gallery*****/
+/*****Work Nav*****/
 
-#gallery {
+.work-nav {
   text-align: center;
-  margin-top: 20px;
 }
 
-.preview {
+.work-nav__item {
   display: inline-block;
-  margin: 5px;
+  padding: 10px;
+  max-width: 100px;
+}
+
+.work-nav__item a {
+  display: block;
   opacity: 0.5;
+}
+
+.work-nav__item a:hover {
+  opacity: 1;
+}
+
+.work-nav__item img {
+  vertical-align: top;
 }
 
 
