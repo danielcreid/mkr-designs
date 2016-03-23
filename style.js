@@ -19,7 +19,7 @@ var data = {
   ],
   illustrator: [
     {
-      value: 85,
+      value: 75,
       color: "#02aac6"
     },
     {
