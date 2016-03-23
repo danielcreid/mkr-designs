@@ -252,29 +252,32 @@ p {
   vertical-align: top;
 }
 
-/*.movie-posters__item-wrap + .movie-posters__item-wrap {
-  margin-top: 20px;
-}*/
-
 /*@media screen and (min-width: 540px) {
-  .movie-posters {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-
-  .movie-posters__item-wrap {
-    float: left;
-    width: 50%;
-  }
-
-  .movie-posters__item-wrap + .movie-posters__item-wrap {
-    margin-top: 0;
-  }
-
-  .movie-posters__item {
-    padding: 20px;
-  }
 }*/
+
+
+/*****Fosters Home*****/
+.fosters-home {
+  text-align: center;
+}
+
+.fosters-home__item {
+  display: inline-block;
+  padding: 20px;
+}
+
+.fosters-home__item img {
+  vertical-align: top;
+}
+
+.fosters-home__codepen-embed {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.fosters-home__codepen-embed > div {
+  padding: 20px;
+}
 
 /*****About*****/
 
