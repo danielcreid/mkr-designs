@@ -200,6 +200,16 @@ p {
   margin-top: 10px;
 }
 
+.project__content {
+  margin-bottom: 20px;
+}
+
+.project__content:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 
 /*****Work Nav*****/
 
@@ -226,6 +236,45 @@ p {
   vertical-align: top;
 }
 
+
+/*****Minimalistic Movie Posters*****/
+
+.movie-posters {
+  text-align: center;
+}
+
+.movie-posters__item {
+  display: inline-block;
+  padding: 20px;
+}
+
+.movie-posters__item img {
+  vertical-align: top;
+}
+
+/*.movie-posters__item-wrap + .movie-posters__item-wrap {
+  margin-top: 20px;
+}*/
+
+/*@media screen and (min-width: 540px) {
+  .movie-posters {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  .movie-posters__item-wrap {
+    float: left;
+    width: 50%;
+  }
+
+  .movie-posters__item-wrap + .movie-posters__item-wrap {
+    margin-top: 0;
+  }
+
+  .movie-posters__item {
+    padding: 20px;
+  }
+}*/
 
 /*****About*****/
 
