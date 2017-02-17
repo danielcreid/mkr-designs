@@ -194,7 +194,7 @@ p {
 
 .project-tile__title {
   margin-top: 10px;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
 }
 
 .project-tile__subtitle {
@@ -314,10 +314,6 @@ p {
   margin-top: 35px;
   overflow: hidden;
   text-align: left;
-}
-
-.chart {
-  text-align: center;
 }
 
 .chart figure {
