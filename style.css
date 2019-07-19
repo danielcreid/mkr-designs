@@ -283,9 +283,10 @@ p {
 /*****About*****/
 
 #intro img {
-  max-width: 250px;
+  max-width: 230px;
   float: left;
   margin-right: 25px;
+  margin-bottom: 15px;
 }
 
 #intro {
@@ -293,6 +294,19 @@ p {
   margin-top: 25px;
   text-align: left;
 }
+
+#intro2 img {
+  max-width: 225px;
+  float: right;
+  margin-left: 25px;
+}
+
+#intro2 {
+  overflow: hidden;
+  margin-top: 25px;
+  text-align: left;
+}
+
 
 #social {
   width: 45%;
