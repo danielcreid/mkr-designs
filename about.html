@@ -1,91 +1,141 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>mkr-designs</title>
-  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" href="normalize.css" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Melanie Reid - Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+
+  <link rel="icon" type="image/png" href="./images/favicon.png">
+
+  <script src="./main.js" defer></script>
 </head>
+
 <body>
   <header id="header">
-    <a href="./"><img src="images/testlogo2.png"></a>
-  </header>
+    <div class="header-inner">
 
-  <nav id="nav">
-    <ul>
-      <li class="work"><a href="./">Work</a></li>
-      <li class="about"><a href="./about.html">About</a></li>
-    </ul>
-  </nav>
+      <div class="brand">
+
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="Logo">
+          </a>
+        </div>
+
+        <div class="header-content">
+          <a href="./index.html" class="brand-link">
+            <h1>Melanie Reid</h1>
+          </a>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="./index.html">Work</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="https://www.linkedin.com/in/mkreid" target="_blank" rel="noopener noreferrer" class="nav-button">
+              Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
 
   <main id="body">
     <div id="intro">
       <img src="images/melanie1.jpg" />
-      <h1>Hello! My name is Melanie.</h1>
-      <p>I am a graphic designer living in Nashville. I have mostly worked in marketing design, focusing on banner ads and email design during my most recent job at Kohl's Corporate. I specialize in both print and digital design and have done some branding projects as well. I enjoy the creative process and having "a-ha!" moments.</p>
+      <div class="intro-text">
+        <h2>Hello! My name is Melanie.</h2>
+        <p>I'm a graphic designer based in Nashville, Tennessee.</p>
 
-      <p>I have a wonderful husband, Daniel, and we adopted an Australian Cattle dog named Bloo. In 2019, Bloo and I became a certified therapy team with Love on a Leash. We visit nursing homes, libraries, and children's homes to provide emotional support and make someone’s day a little brighter.</p>
-        
-      <p>I love to crochet blankets, hats and various stuffed animals for myself, friends, and family. I enjoy playing video games like The Legend of Zelda: Breath of the Wild, Mario Kart, Donkey Kong and Overcooked. Also, my husband and I are currently cooking every burger from the <a href="https://www.amazon.com/Bobs-Burgers-Burger-Book-Recipes/dp/0789331144/ref=asc_df_0789331144/?tag=hyprod-20&linkCode=df0&hvadid=312168322760&hvpos=1o1&hvnetw=g&hvrand=10735270687126031208&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9013085&hvtargid=pla-435494665085&psc=1">Bob's Burgers cookbook.</a> When it comes to sports, I cheer for the St. Louis Cardinals and Green Bay Packers. I'm also an aspiring Nashville Predators fan.</p>
-        
+        <p>Most recently, I've been working with Dreamtivity, a children's publishing company. I began by creating
+          coloring books, educational workbooks, puzzle books, and developing licensed content for brands such as Disney
+          and Barbie.</p>
+
+        <p>Over time, I took responsibility for the design and formatting of the puzzle book line, including word
+          search,
+          sudoku, and crossword titles. I've developed themed word lists and contributed to the production of more than
+          100 word search books, 50 sudoku books, and 25 crossword books.</p>
+
+        <p>In my free time, I enjoy learning CAD programs like Rayon and SketchUp for home projects and creative
+          planning.
+          I also crochet blankets and stuffed animals, play video and board games, make pickles, and watch hummingbirds
+          at
+          my feeder.</p>
+
+      </div>
+
     </div>
 
-    <div id="skills">
-      <h1>Skills</h1>
-      <div class="chart">
-        <figure>
-          <canvas height='150' id='photoshop' width='150'></canvas>
-          <p>Photoshop</p>
-        </figure>
+    <div class="work-nav">
+      <h5>Check out my projects</h5>
 
-        <figure>
-          <canvas height='150' id='illustrator' width='150'></canvas>
-          <p>Illustrator</p>
-        </figure>
+      <div class="work-nav_grid">
 
-        <figure>
-          <canvas height='150' id='indesign' width='150'></canvas>
-          <p>InDesign</p>
-        </figure>
+        <div class="work-nav__item">
+          <a href="./puzzlebooks.html"><img src="./images/dreamtivity/wordsearch-index.jpg"></a>
+        </div>
 
-        <figure>
-          <canvas height='150' id='html' width='150'></canvas>
-          <p>HTML &amp; CSS</p>
-        </figure>
-        <figure>
-          <canvas height='150' id='brackets' width='150'></canvas>
-          <p>Dreamweaver</p>
-        </figure>
+        <div class="work-nav__item">
+          <a href="./workbooks.html"><img src="./images/dreamtivity/workbook-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./ocjc.html"><img src="./images/orangecupboard/ocjc-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./kohls-email.html"><img src="./images/kohlsemail/kohlsemail-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./kohls-mms.html"><img src="./images/kohlsmms/kohlsmms-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./ccbrewing.html"><img src="./images/ccbrewing/ccbrewing-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./bfoh.html"><img src="./images/bfoh/bfoh-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./mdwedding.html"><img src="./images/wedding/mdwedding-index.jpg"></a>
+        </div>
+
+        <div class="work-nav__item">
+          <a href="./fosters.html"><img src="./images/fosters/fosters-index.jpg"></a>
+        </div>
       </div>
+    </div>
+
+
     </div>
   </main>
 
   <footer id="footer">
     <div class="copyright">
-      <h4>&copy;2019 Melanie Reid</h4>
-    </div>
-    <div class="social">
-       <a class="icon" href="http://www.linkedin.com/in/melonknee614" target="_blank"><img src="images/social/In-2CRev-54px-R.png"></a>
-       <a class="icon" href="http://www.codepen.io/melonknee614" target="_blank"><img src="images/social/CodePen.png"></a>
-       <a class="icon" href="https://www.instagram.com/melonknee614/" target="_blank"><img src="images/social/Instagram-Glyph.jpg"></a>
+      <div class="inter-300">
+        &copy; <span id="year"></span> Melanie Reid
+      </div>
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
-  <script src="style.js"></script>
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75481628-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 </body>
+
 </html>
