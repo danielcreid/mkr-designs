@@ -11,6 +11,18 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
+/* =========================================================
+   HEADER COMPACT ON SCROLL
+   ========================================================= */
+
+   const header = document.getElementById("header");
+
+if (header) {
+  window.addEventListener("scroll", () => {
+    header.classList.toggle("header--compact", window.scrollY > 120);
+  });
+}
+
 
 /* =========================================================
    NAVIGATION (HAMBURGER MENU)
