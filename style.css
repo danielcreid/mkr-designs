@@ -309,6 +309,8 @@ p {
   background: #000;
   display: block;
   transition: transform 0.25s ease, opacity 0.25s ease;
+  backface-visibility: hidden;
+  transform-origin: center;
 }
 
 /* ================== BODY ================= */
@@ -636,7 +638,7 @@ p {
   }
 
   .nav-toggle.open span:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
+    transform: translateY(7px) rotate(45deg);
   }
 
   .nav-toggle.open span:nth-child(2) {
@@ -644,7 +646,7 @@ p {
   }
 
   .nav-toggle.open span:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-7px) rotate(-45deg);
   }
 
   #nav ul {
