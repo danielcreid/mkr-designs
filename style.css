@@ -147,6 +147,30 @@ p {
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
   background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+#header.header--compact {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+   border-bottom-color: transparent;
+}
+
+#header.header--compact .header-content {
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+}
+
+#header.header--compact .header-inner {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#header.header--compact .logo img {
+  height: 40px;
 }
 
 .header-inner {
@@ -162,6 +186,7 @@ p {
 .header-content {
   display: flex;
   align-items: baseline;
+  transition: opacity 0.3s ease;
 }
 
 .header-content h1 {
@@ -611,7 +636,7 @@ p {
   }
 
   .nav-toggle.open span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
+    transform: translateY(6px) rotate(45deg);
   }
 
   .nav-toggle.open span:nth-child(2) {
@@ -619,7 +644,7 @@ p {
   }
 
   .nav-toggle.open span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-6px) rotate(-45deg);
   }
 
   #nav ul {
